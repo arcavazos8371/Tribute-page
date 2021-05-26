@@ -1,5 +1,5 @@
 html {
-background-color: #eee;
+background-color: rgb(170, 170, 170);
 }
 
 body {
@@ -42,7 +42,7 @@ text-align: center;
     font-size: 2em;
 }
 #tribute-info{
-background-color: silver;
+background-color: rgb(207, 207, 207);
 padding-top: 1em;
 
 }
@@ -67,5 +67,25 @@ h3 {
 .container {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    column-gap: 1em;  
+    row-gap: 1em;
+    grid-auto-rows: minmax(1em, auto); 
+  
+}
+h4 {
+    font-size: 2em;
+}
+.container > div {
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: #eee;
+    border-radius: 25px;
+
+}
+.closing {
+font-size: 2em;
+
+}
+#tribute-link {
+    font-style: italic;
 }
