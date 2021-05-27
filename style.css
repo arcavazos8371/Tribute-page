@@ -1,5 +1,5 @@
 html {
-background-color: rgb(170, 170, 170);
+background-color: #0c0a0b;
 }
 
 body {
@@ -14,16 +14,19 @@ line-height: 2.8em;
     margin: 30px 8px;
     padding: 15px;
     border-radius: 5px;
+    color: #0c0a0b;
 }
 
 #title {
 font-size: 3em;
 text-align: center;
+color: #D3FBD8;
 }
 
 #title-subtext {
     text-align: center;
     font-size: 2em;
+    color: #D3FBD8;
 }
 #img-div {
     max-width: 100%;
@@ -31,6 +34,8 @@ text-align: center;
     height: auto;
     margin: 0 auto;
     text-align: center;
+    color: #C1A7A7;
+    
 }
 
 #image {
@@ -40,10 +45,13 @@ text-align: center;
 
 #img-caption {
     font-size: 2em;
+    color: #D3FBD8;
 }
 #tribute-info{
-background-color: rgb(207, 207, 207);
+background-color: #4C4452;
 padding-top: 1em;
+border-radius: 5px;
+color: #D3FBD8;
 
 }
 
@@ -76,16 +84,19 @@ h4 {
     font-size: 2em;
 }
 .container > div {
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding: 1em;
-    background-color: #eee;
+    background-color: #CA9FB5;
     border-radius: 25px;
+    color: #364954;
 
 }
 .closing {
 font-size: 2em;
+color: #D3FBD8;
 
 }
 #tribute-link {
     font-style: italic;
+    color: #D3FBD8;
 }
