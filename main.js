@@ -8,10 +8,10 @@ myImage.onclick = function() {
       myImage.setAttribute('src','images/Diagram.jpg');
       
     }
-    if(mySrc === 'images/Diagram.jpg') {
+    else if(mySrc === 'images/Diagram.jpg') {
       myImage.setAttribute('src','images/Quote.jpg');  
     }
-    if(mySrc === 'images/Quote.jpg') {
+    else{
       myImage.setAttribute('src','images/Carl-Jung.jpg');  
     }
 }
